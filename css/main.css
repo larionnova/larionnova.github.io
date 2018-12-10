@@ -1,0 +1,268 @@
+
+/*--------Спецификация-------- */
+
+body {
+    margin: 0;
+    padding: 0;    
+}
+
+div, ul, li, p, form, b, button, a, input, textarea, img, span {
+	display: block;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+
+input, input:hover, input:active, input:focus, 
+button, button:hover, button:active, button:focus {
+    outline: none !important;
+}
+
+a, a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+button:active {
+    outline: none;
+}
+
+.button:active {
+    background: #fbcf18;
+    outline: none;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 55px rgba(0,0,0,0.29);
+}
+
+.button:focus {
+    outline: none;
+}
+
+/*.container {
+    width: 940px;
+    margin: 0 auto;
+    position: relative; - чтобы блоки с позицией абсолют не выпали из контейнера
+}
+*/
+
+/*--------Header-------- */
+
+.header {
+    background: url(../img/5.jpg) no-repeat center top/cover;
+    background-size: 100% 100%
+}
+
+h1 {
+    position: relative;
+    margin: 55px auto 290px;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #981c09;
+}
+
+.luck {
+    position: absolute;
+    right: 2%;
+    margin-top: 40px;
+}
+
+.nav {
+    position: relative;
+    background: url(../img/under_logo.jpg);
+    padding-left: 30px;
+    border-top: solid 4px #1f91d0;
+}
+
+.language__li {
+    padding-right: 5px;
+}
+
+.language__link {
+    color: #fff;
+}
+
+.language__link:hover {
+    color: #fff;
+}
+
+.menu__link {
+    color: #fff;
+    padding: 0 15px;
+}
+
+.menu__link:hover {
+    color: #fff;
+}
+
+.menu__link:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.active {
+    background-color: #fff;
+    color: #000;
+}
+
+.menu {
+    margin: 0 auto;
+}
+
+/*--------About-------- */
+
+h2 {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ca6b4e;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 60px;
+}
+
+.menu-left {
+    background-color: #e48432;
+}
+
+.wrap {
+    border: 2px solid #808080;
+}
+
+.categories__link {
+    color: #0066cc;
+    padding: 10px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #808080;
+    width: 89%;
+    font-weight: bold;
+}
+
+.categories__link:hover {
+    color: #517535;
+}
+
+.categories {
+    padding: 30px 0 15px 15px;
+    background-color: #d6d8d9;
+}
+
+.announcement {
+    background-color: #e48432;
+    width: 232px;
+    border: 2px solid #808080;
+}
+
+.now_here {
+    background-color: #eaa706;
+}
+
+h3 {
+    color: #842b10;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.advert {
+    border-bottom: 4px solid #6b0b2e;
+    color: #fff;
+}
+
+.advert__text {
+    margin: 0 10px 5px 20px;
+}
+
+.advert__img {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.achievement {
+    margin: 40px 26px 30px;
+}
+
+.achievement__block {
+    padding-top: 10px;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 15px;
+}
+
+.achievement__label {
+    padding: 50px 45px;
+}
+
+.achievement__text {
+    width: 200px;
+    background-color: #f84b07;
+    border: 2px dotted #0000ff;
+    padding: 15px;
+    color: #0000db;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.bravo {
+    text-align: center;
+    color: #f00;
+    margin: 10px 0 15px;
+    text-align: left;
+}
+
+.bravo__img {
+    margin-left: 100px;
+    margin-top: -125px;
+    display: none;
+}
+
+.achievement__description {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.label__next {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.media__next {
+    margin: 20px 0;
+}
+
+.adres {
+    display: inline-block;
+    color: #3b4a54;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.map {
+    width: 100%;
+}
+
+/*--------Footer-------- */
+
+footer {
+    background-color: #4d7590;
+    border-bottom: 8px solid #fff;
+}
+
+.footer__description {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
